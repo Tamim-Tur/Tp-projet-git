@@ -1,0 +1,7 @@
+salutttttttt
+lolaaaaa
+<<<<<<< HEAD
+koko
+=======
+totottto
+>>>>>>> lol
