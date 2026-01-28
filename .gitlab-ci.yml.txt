@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  tags:
+    - windows
+  script:
+    - echo "Build sur mon PC Windows 11"
+    - dir   # liste les fichiers pour test
+
+test_job:
+  stage: test
+  tags:
+    - windows
+  script:
+    - echo "Test sur mon PC Windows 11"
+    - echo "Pipeline exécuté localement avec GitLab Runner"
