@@ -3,7 +3,7 @@ stages:
   - test
 build-job:
   tags:
-    - local
+    - pip
   script:
     - echo "Compiling code on my local Windows runner"
 test_job:
