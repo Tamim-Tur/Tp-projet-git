@@ -3,14 +3,8 @@ stages:
   - test
 build-job:
   tags:
-    - pip
+    - windows 
   script:
     - echo "Compiling code on my local Windows runner"
-test_job:
-  stage: test
-  tags:
-    - windows
-  script:
-    - echo "Test sur mon PC Windows 11"
-    - echo "Pipeline exécuté localement avec GitLab Runner"
+
 
